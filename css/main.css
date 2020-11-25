@@ -1,0 +1,83 @@
+body{
+    position:relative;
+    
+}
+
+
+.navbar{
+    padding:0;
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 999;
+    margin-bottom:20px;
+
+
+}
+.navbar.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+}
+
+.navbar-brand{
+  margin-left:2%;
+}
+
+.srch{
+    
+    width:40%;
+}
+
+.srchfield{
+    padding-right:40%
+}
+.profile{
+    margin-right:10px;
+}
+.cart{
+    margin-right:10px;
+}
+.main{
+    margin-top:50px;
+}
+
+.carousel img{
+    max-width:100%;
+
+}
+.crds{
+    margin-top:20px;
+    display:inline-flex;
+    
+}
+.crds .card{
+    margin:auto;
+}
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+  
+  ol.carousel-indicators li,
+  ol.carousel-indicators li.active {
+    float: left;
+    width: 33%;
+    height: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+  }
+  
+  ol.carousel-indicators li.active {
+    background: black;
+  }
